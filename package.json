@@ -4,7 +4,7 @@
   "description": "MCP server for Ssave — extract and download TikTok / Instagram / YouTube / Douyin media (HD video, no watermark, MP3) via api.ssave.cc",
   "type": "module",
   "bin": {
-    "ssave-mcp": "./dist/index.js"
+    "ssave-mcp": "dist/index.js"
   },
   "files": [
     "dist"
