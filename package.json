@@ -1,0 +1,45 @@
+{
+  "name": "@ssave/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Ssave — extract and download TikTok / Instagram / YouTube / Douyin media (HD video, no watermark, MP3) via api.ssave.cc",
+  "type": "module",
+  "bin": {
+    "ssave-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "tsx --test test/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tiktok",
+    "tiktok-downloader",
+    "instagram",
+    "instagram-downloader",
+    "youtube",
+    "youtube-downloader",
+    "douyin",
+    "douyin-downloader",
+    "video-downloader",
+    "mp3"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
