@@ -6,7 +6,7 @@
  * 暴露 extract_media / download_media / get_thumbnail 三个工具。
  * 底层调用 https://api.ssave.cc/open/v1/*（见 docs/mcp-contract.md）。
  *
- * 运行：npx @ssave/mcp-server
+ * 运行：npx @ssavecc/mcp-server
  */
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';

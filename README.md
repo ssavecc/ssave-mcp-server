@@ -1,4 +1,4 @@
-# @ssave/mcp-server
+# @ssavecc/mcp-server
 
 Model Context Protocol (MCP) server for [Ssave.cc](https://ssave.cc) — extract and download **TikTok / Instagram / YouTube / Douyin** media (HD video without watermark, MP3 audio) directly to your local disk.
 
@@ -7,7 +7,7 @@ Runs locally via stdio, backed by the [Ssave Open API](https://api.ssave.cc/docs
 ## Quick Start
 
 ```bash
-npx @ssave/mcp-server
+npx @ssavecc/mcp-server
 ```
 
 Then add it to your MCP client:
@@ -15,7 +15,7 @@ Then add it to your MCP client:
 ### Claude Code
 
 ```bash
-claude mcp add ssave -- npx @ssave/mcp-server
+claude mcp add ssave -- npx @ssavecc/mcp-server
 ```
 
 Or project-level `.mcp.json`:
@@ -23,7 +23,7 @@ Or project-level `.mcp.json`:
 ```json
 {
   "mcpServers": {
-    "ssave": { "command": "npx", "args": ["@ssave/mcp-server"] }
+    "ssave": { "command": "npx", "args": ["@ssavecc/mcp-server"] }
   }
 }
 ```
@@ -37,7 +37,7 @@ Settings → MCP → Add new MCP server:
   "mcpServers": {
     "ssave": {
       "command": "npx",
-      "args": ["@ssave/mcp-server"]
+      "args": ["@ssavecc/mcp-server"]
     }
   }
 }
@@ -52,7 +52,7 @@ Edit `claude_desktop_config.json`:
   "mcpServers": {
     "ssave": {
       "command": "npx",
-      "args": ["@ssave/mcp-server"]
+      "args": ["@ssavecc/mcp-server"]
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@ssave/mcp-server",
+  "name": "@ssavecc/mcp-server",
   "version": "0.1.0",
   "description": "MCP server for Ssave — extract and download TikTok / Instagram / YouTube / Douyin media (HD video, no watermark, MP3) via api.ssave.cc",
   "type": "module",
@@ -12,6 +12,17 @@
   "engines": {
     "node": ">=20"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssavecc/ssave-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssavecc/ssave-mcp-server/issues"
+  },
+  "homepage": "https://github.com/ssavecc/ssave-mcp-server",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
