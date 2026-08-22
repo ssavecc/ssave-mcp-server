@@ -1,0 +1,29 @@
+{
+  "manifest_version": "0.3",
+  "name": "tiktok-instagram-downloader",
+  "version": "0.1.2",
+  "description": "下载 TikTok、Instagram、YouTube、抖音视频与音频：高清无水印，也能提取 MP3，直接保存到本地",
+  "long_description": "一款简单好用的视频下载工具：粘贴视频链接，即可把 TikTok、Instagram、YouTube、抖音的视频（高清无水印）或 MP3 音频保存到你的电脑本地。",
+  "author": {
+    "name": "ssave",
+    "email": "support@ssave.cc",
+    "url": "https://ssave.cc"
+  },
+  "homepage": "https://ssave.cc",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/dist/index.js"
+      ]
+    }
+  },
+  "tools": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssavecc/ssave-mcp-server.git"
+  }
+}
