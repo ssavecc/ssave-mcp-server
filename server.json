@@ -2,27 +2,27 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "cc.ssave/tiktok-instagram-downloader",
   "title": "ssave.cc — TikTok & Instagram Downloader",
-  "description": "MCP server for Ssave — extract and download TikTok / Instagram / YouTube / Douyin media (HD video, no watermark, MP3) via api.ssave.cc",
+  "description": "Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export",
   "repository": {
     "url": "https://github.com/ssavecc/ssave-mcp-server",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ssavecc/mcp-server",
-      "version": "1.0.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
       "environmentVariables": [
         {
-          "description": "Your API key for the service",
-          "isRequired": true,
-          "format": "string",
+          "name": "SSAVE_API_KEY",
+          "description": "Optional. Without a key, limited to 50 free downloads. Get a key for unlimited access at https://ssave.cc/dashboard/api",
+          "isRequired": false,
           "isSecret": true,
-          "name": "YOUR_API_KEY"
+          "format": "string"
         }
       ]
     }
