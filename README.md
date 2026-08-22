@@ -1,7 +1,7 @@
 # @ssavecc/mcp-server
 
 [![smithery badge](https://smithery.ai/badge/ssave/tiktok-instagram-downloader)](https://smithery.ai/servers/ssave/tiktok-instagram-downloader)
-[![Glama](https://glama.ai/mcp/servers/ssavecc/ssave-mcp-server/badge)](https://glama.ai/mcp/servers/ssavecc/ssave-mcp-server)
+[![ssave-mcp-server MCP server](https://glama.ai/mcp/servers/ssavecc/ssave-mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/ssavecc/ssave-mcp-server)
 
 Model Context Protocol (MCP) server for [Ssave.cc](https://ssave.cc) — extract and download **TikTok / Instagram / YouTube / Douyin** media (HD video without watermark, MP3 audio) directly to your local disk.
 
