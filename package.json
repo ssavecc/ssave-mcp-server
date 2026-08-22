@@ -1,6 +1,6 @@
 {
   "name": "@ssavecc/mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "cc.ssave/tiktok-instagram-downloader",
   "description": "MCP server for Ssave — extract and download TikTok / Instagram / YouTube / Douyin media (HD video, no watermark, MP3) via api.ssave.cc",
   "type": "module",
