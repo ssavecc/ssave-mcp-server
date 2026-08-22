@@ -1,5 +1,7 @@
 # @ssavecc/mcp-server
 
+[![smithery badge](https://smithery.ai/badge/ssave/tiktok-instagram-downloader)](https://smithery.ai/servers/ssave/tiktok-instagram-downloader)
+
 Model Context Protocol (MCP) server for [Ssave.cc](https://ssave.cc) — extract and download **TikTok / Instagram / YouTube / Douyin** media (HD video without watermark, MP3 audio) directly to your local disk.
 
 Runs locally via stdio, backed by the [Ssave Open API](https://api.ssave.cc/docs) (`/open/v1`). No registration required on the free tier.
